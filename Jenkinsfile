@@ -76,7 +76,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh label: '', script: 'docker build -t dipankar435/springbootapp .'
+                sh label: '', script: 'docker build -t dipankar435/mavenwebapp .'
             }
         }
         
@@ -90,7 +90,7 @@ pipeline {
         
         stage('Push Image') {
             steps {
-                sh label: '', script: "docker push dipankar435/springbootapp";
+                sh label: '', script: "docker push dipankar435/mavenwebapp";
             }
         }
         
