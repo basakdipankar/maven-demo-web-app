@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container">
-<b>This is simple maven web application</b>
+<strong>This is simple maven web application</strong>
 </div>
 </body>
 </html>
