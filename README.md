@@ -1,1 +1,1 @@
-# maven-web-app
+## Maven Web application
