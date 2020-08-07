@@ -71,10 +71,10 @@
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.5</version>
 				<configuration>
-					<excludes>
+					<!--<excludes>
 						<exclude>**/*.js</exclude>
 						<exclude>**/MavenWebApplicationTests.java</exclude>
-					</excludes>
+					</excludes>-->
 				</configuration>
 				<executions>
 					<execution>
